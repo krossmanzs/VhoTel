@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: hannari;
+    font-family: Hannari;
     src: url(../../res/font/hannari.ttf);
 }
 
@@ -34,14 +34,15 @@ nav {
 nav .logo {
     width: 100px;
     height: 100px;
-    margin-bottom: 12px;
+    margin-top: 3px;
+    margin-bottom: 31px;
 }
 
 nav ul {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    margin-bottom: 12px;
+    margin-bottom: 26px;
 }
 
 nav ul li a {
@@ -50,5 +51,213 @@ nav ul li a {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
+}
+
+body {
+    background-color: black;
+}
+
+.welcome-card {
+    height: 394px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../../res/img/welcome_home.jpg");
+    background-position: -100%, -100%;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.welcome-card h2 {
+    font-family: 'Castoro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.welcome-card h1 {
+    font-family: 'Cantata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    color: #FFFFFF;
+}
+
+.welcome-card h3 {
+    font-family: 'Enriqueta';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Jomolhari';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    color: #ffff;
+}
+
+p {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.home-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 102px 129px;
+    gap: 10px;
+}
+
+.home-quote h1, p {
+    text-align: center;
+}
+
+.home-offer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 19px;
+}
+
+.home-offer div{
+    display: flex;
+    width: 379px;
+    flex-direction: column;
+    position: relative;
+    background-color: #D9D9D9;
+}
+
+.home-offer-sub {
+    width: 100%;
+    text-align: left;
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+
+.home-offer .discount-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 119px;
+    height: 70.57px;
+    top: 0px;
+    right: 0px;
+    background-color: #BB0000;
+}
+
+.home-offer .discount-tag p {
+    font-family: 'Enriqueta';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.home-offer img {
+    margin: 16px 16px 0 16px;
+}
+
+.home-offer .offer-name {
+    font-family: 'Javanese Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+}
+
+.home-offer .price-line {
+    font-family: 'hannari';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+    text-decoration: line-through;
+    text-decoration-color: #BB0000;
+    text-decoration-thickness: 5px;
+    align-self: flex-start;
+    margin-left: 16px;
+}
+
+.home-offer .price {
+    font-family: 'hannari';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+    transform: translateY(-30%);
+}
+
+.home-offer .btn-reservation {
+    width: 230px;
+    height: 66px;
+    background-color: #8A0000;
+    font-family: 'Hannari';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 34px;
+    color: #FFFFFF;
+    align-self: center;
+    cursor: pointer;
+}
+
+.home-offer .terms {
+    font-family: 'Hannari';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin: 34px 12px 9px 0;
+    align-self: flex-end;
+}
+
+.line {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    border: 1px solid #c7b57b;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #202020;
+    padding-bottom: 35px;
+    margin-top: 48px;
+}
+
+footer p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+footer .medsos-list {
+    margin-top: 38px;
+    width: 50%;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .medsos-list img {
+    width: 48px;
+    height: auto;
 }
