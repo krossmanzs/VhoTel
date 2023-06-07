@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Castoro+Titling&family=Cormorant+Garamond&family=Days+One&family=Enriqueta&family=Hahmlet&family=Inter&family=Jomolhari&family=Kaisei+HarunoUmi&family=Vollkorn+SC&display=swap');
+
+@font-face {
+    font-family: califb;
+    src: url(../../res/font/califb.ttf);
+}
+
+@font-face {
+    font-family: hannari;
+    src: url(../../res/font/hannari.ttf);
+}
+
+@font-face {
+    font-family: javatext;
+    src: url(../../res/font/javatext.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -5,4 +22,33 @@
     list-style: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 12px;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 12px;
+}
+
+nav ul li a {
+    color: #ffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
 }
