@@ -642,3 +642,150 @@ footer .medsos-list img {
     cursor: pointer;
     padding-top: 10px;
 }
+
+@media only screen and (max-width: 1260px) {
+    .facility-content-card > div {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .facility-content-card > div img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .facility-content-card-second {
+        flex-direction: column;
+        padding: 48px 0;
+    }
+
+    .facility-content-card-second img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .home-offer {
+        width: 100vw;
+        justify-content: flex-start;
+        padding: 0 12px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    .room-container {
+        padding: 52px 0;
+        gap: 24px;
+        flex-direction: column;
+    }
+
+    .room-container img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .room-container > div {
+        width: 100%;
+    }
+
+    .room-container p {
+        width: 100%;
+        padding: 0 68px;
+    }
+
+    .form-reservation label{
+        font-size: 28px;
+        width: 160px;
+    }
+
+    .form-reservation p, .form-reservation input {
+        font-size: 28px;
+    }
+
+    .form-reservation input, select {
+        width: 400px;
+    }
+
+    .contact-container {
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 0 12px;
+    }
+
+    .contact-container .sub {
+        transform: translateX(0);
+    }
+
+    .contact-container > div p {
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .facility-content-card p, .facility-content-card-second p{
+        font-size: 28px;
+    }
+
+    .home-offer {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 54px;
+    }
+
+    .home-offer > div {
+        width: 100%;
+    }
+
+    .home-quote {
+        width: 100%;
+        margin: 102px 0;
+        padding: 0 24px;
+    }
+
+    .form-reservation > div{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+
+    .form-reservation p {
+        display: none;
+    }
+
+    .form-reservation label {
+        margin-top: 8px;
+    }
+
+    .reservation-card h1 {
+        font-size: 48px;
+    }
+
+    .reservation-card h2 {
+        font-size: 28px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    footer .medsos-list img {
+        width: 36px;
+    }
+
+    .contact-container {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 0 12px;
+    }
+
+    .contact-container > div {
+        width: 80%;
+    }
+}
