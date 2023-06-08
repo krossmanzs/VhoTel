@@ -448,3 +448,57 @@ footer .medsos-list img {
     font-weight: 600;
     text-transform: uppercase;
 }
+
+.contact-container {
+    height: 394px;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../../res/img/welcome_home.jpg");
+    background-position: -100%, -100%;
+    background-size: cover;
+    margin-top: 58px;
+    padding-top: 32px;
+    justify-content: center;
+    gap: 164px;
+}
+
+.map-location {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.contact-container .sub {
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: left;
+    transform: translateX(-10%);
+    font-weight: 400;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+.contact-container > div > div {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin: 37px 0;
+}
+
+.contact-container > div img {
+    width: 48px;
+    object-fit: cover;
+}
+
+.contact-container > div p {
+    width: 318px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.contact-container .follow-us > div{
+    margin: 17px 0;
+}
