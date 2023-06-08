@@ -627,7 +627,7 @@ footer .medsos-list img {
     color: #000000;
 }
 
-.thankyou-container button {
+.thankyou-container .btn-home {
     width: 374px;
     height: 82px;
     margin: 0 auto;
@@ -640,4 +640,5 @@ footer .medsos-list img {
     text-align: center;
     color: #FFFFFF;
     cursor: pointer;
+    padding-top: 10px;
 }
