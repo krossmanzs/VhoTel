@@ -1,18 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Castoro+Titling&family=Cormorant+Garamond&family=Days+One&family=Enriqueta&family=Hahmlet&family=Inter&family=Jomolhari&family=Kaisei+HarunoUmi&family=Vollkorn+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Castoro+Titling&family=Cormorant+Garamond&family=Days+One&family=Enriqueta&family=Hahmlet&family=Inter&family=Jomolhari&family=Kaisei+HarunoUmi&family=Poppins&family=Vollkorn+SC&display=swap');
 
 @font-face {
-    font-family: califb;
-    src: url(../../res/font/califb.ttf);
-}
-
-@font-face {
-    font-family: Hannari;
-    src: url(../../res/font/hannari.ttf);
-}
-
-@font-face {
-    font-family: javatext;
-    src: url(../../res/font/javatext.ttf);
+    font-family: "CaliFB";
+    src: url(../../res/font/califb.woff) format('woff'),
+    url(../../res/font/califb.woff) format('truetype'),
+    url(../../res/font/califb.woff) format('opentype');
 }
 
 * {
@@ -142,7 +134,7 @@ p {
 .home-offer-sub {
     width: 100%;
     text-align: left;
-    margin-left: 12px;
+    padding-left: 12px;
     margin-bottom: 12px;
 }
 
@@ -170,7 +162,7 @@ p {
 }
 
 .home-offer .offer-name {
-    font-family: 'Javanese Text';
+    font-family: "Javanese Text";
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -178,7 +170,7 @@ p {
 }
 
 .home-offer .price-line {
-    font-family: 'hannari';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -191,7 +183,7 @@ p {
 }
 
 .home-offer .price {
-    font-family: 'hannari';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -203,10 +195,10 @@ p {
     width: 230px;
     height: 66px;
     background-color: #8A0000;
-    font-family: 'Hannari';
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 34px;
     color: #FFFFFF;
     align-self: center;
@@ -214,7 +206,7 @@ p {
 }
 
 .home-offer .terms {
-    font-family: 'Hannari';
+    font-family: "Hannari";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
