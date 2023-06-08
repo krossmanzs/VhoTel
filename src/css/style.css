@@ -342,3 +342,109 @@ footer .medsos-list img {
     text-align: center;
     color: #000000;
 }
+
+.reservation-card {
+    height: 394px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../../res/img/room_facility.jpg");
+    background-position: -100%, -100%;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 34px;
+}
+
+.reservation-card h1 {
+    font-family: 'Kaisei HarunoUmi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-position: under;
+    color: #FFFFFF;
+}
+
+.reservation-card h2 {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+
+.form-reservation {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 55px auto;
+}
+
+.form-reservation label{
+    white-space: pre;
+    width: 280px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.form-reservation div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-reservation .btn-book {
+    align-self: center;
+    width: 368px;
+    height: 84px;
+    background: #8A0000;
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-top: 48px;
+    cursor: pointer;
+}
+
+.form-reservation input, select{
+    background-color: #D0C0A2;
+    width: 518px;
+    height: 74px;
+    padding-left: 12px;
+    font-family: "Poppins";
+    font-size: 24px;
+}
+
+.form-reservation input[type=text],input[type=number],input[type=email] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 5px solid #D0C0A2;
+    color: #D9D9D9;
+}
+
+.form-reservation select, input[type=date] {
+    padding-right: 12px;
+}
+
+.form-reservation select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("../../res/img/triangle.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 50%;
+}
+
+.form-reservation input[type=date] {
+    font-weight: 600;
+    text-transform: uppercase;
+}

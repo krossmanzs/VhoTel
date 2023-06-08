@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <img src="../../res/img/logo.png" class="logo" alt="Vhotel Logo">
+        <ul>
+            <li><a href="home.html">Homepage</a></li>
+            <li><a href="facility.html">Facilities</a></li>
+            <li><a href="#">Reservation</a></li>
+            <li><a href="#">Room & Suites</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="reservation-card">
+        <h1>Reservation Now</h1>
+        <h2>Stay Longer Save More!</h2>
+    </div>
+
+    <div class="form-container">
+        <form class="form-reservation">
+            <div>
+                <label for="firstname">Name</label>
+                <p>:</p>
+                <input type="text" name="firstname" placeholder="Full Name"  required>
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone Number</label>
+                <p>:</p>
+                <input type="number" name="phone" placeholder="08123456789" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <p>:</p>
+                <input type="email" name="email" placeholder="your.email@host.com" required>
+            </div>
+            <br>
+            <div>
+                <label for="checkin">Check in</label>
+                <p>:</p>
+                <input type="date" name="checkin"  required>
+            </div>
+            <br>
+            <div>
+                <label for="checkout">Check out</label>
+                <p>:</p>
+                <input type="date" name="checkout"  required>
+            </div>
+            <br>
+            <div>
+                <label for="password">Room type</label>
+                <p>:</p>
+                <select name="roomtype" id="room" required>
+                    <option disabled selected value> -- select an option --</option>
+                    <option value="onebed">One Bed Room</option>
+                    <option value="twobed">Two Beds Room</option>
+                    <option value="luxursuite">Luxurious Suite</option>
+                    <option value="onebedlux">One Beds Luxurious Room</option>
+                    <option value="twobedlux">Two Beds Luxurious Room</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="password">Payment</label>
+                <p>:</p>
+                <select name="paymenttype" id="payment">
+                    <option disabled selected value> -- select an option --</option>
+                    <option value="bca">BCA</option>
+                    <option value="mm">Credit Card</option>
+                    <option value="dana">Dana</option>
+                    <option value="gopay">Gopay</option>
+                </select>
+            </div>
+            <br>
+            <input type="submit" class="btn-book" value="Book Now!">
+        </form>
+    </div>
+
+    <footer>
+        <div class="medsos-list">
+            <a href="#"><img src="../../res/img/instagram_logo.png" alt="Instagram Logo"></a>
+            <a href="#"><img src="../../res/img/youtube_logo.png" alt="Youtube Logo"></a>
+            <a href="#"><img src="../../res/img/twitter_logo.png" alt="Twitter Logo"></a>
+            <a href="#"><img src="../../res/img/facebook_logo.png" alt="Facebook Logo"></a>
+        </div>
+        <div class="line"></div>
+        <p>All material herein © 2023 VhoTel Company Pte. Ltd. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
