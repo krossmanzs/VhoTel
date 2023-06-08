@@ -502,3 +502,68 @@ footer .medsos-list img {
 .contact-container .follow-us > div{
     margin: 17px 0;
 }
+
+.facility-card {
+    height: 394px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../../res/img/facility_banner.webp");
+    background-position: -100%, -100%;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-bottom: 94px;
+}
+
+.left {
+    background-color: #D0C0A2;
+}
+
+.right {
+    background-color: #000000;
+    flex-direction: row-reverse;
+}
+
+.left p, .left h1 {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+}
+
+.right p, .right h1 {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.room-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 67px;
+    padding: 52px 95px;
+}
+
+.room-container h1 {
+    transform: translateY(40%);
+    font-size: 48px;
+}
+
+.room-container p {
+    font-size: 32px;
+}
+
+.room-container img {
+    width: 625px;
+    height: 350px;
+}
+
+.room-container > div {
+    width: 551px;
+    height: auto;
+}
