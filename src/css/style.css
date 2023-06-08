@@ -606,3 +606,38 @@ footer .medsos-list img {
     margin-bottom: 70px;
     color: #FFFFFF;
 }
+
+.thankyou-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thankyou-container {
+    width: fit-content;
+    background: #FFD7D7;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.thankyou-container p {
+    color: #000000;
+}
+
+.thankyou-container button {
+    width: 374px;
+    height: 82px;
+    margin: 0 auto;
+    margin-top: 12px;
+    background-color: #000000;
+    font-family: 'Hahmlet';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
