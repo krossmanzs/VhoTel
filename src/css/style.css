@@ -275,7 +275,7 @@ footer .medsos-list img {
     gap: 12px;
 }
 
-.facility-card h1 {
+.facility-card h1, .about-card h1 {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-position: under;
@@ -343,11 +343,11 @@ footer .medsos-list img {
     color: #000000;
 }
 
-.reservation-card {
+.reservation-card, .about-card {
     height: 394px;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../../res/img/room_facility.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../../res/img/lobby.jpg");
     background-position: -100%, -100%;
     background-size: cover;
     align-items: center;
@@ -546,11 +546,10 @@ footer .medsos-list img {
     justify-content: center;
     align-items: center;
     gap: 67px;
-    padding: 52px 95px;
+    padding: 52px 50px;
 }
 
 .room-container h1 {
-    transform: translateY(40%);
     font-size: 48px;
 }
 
@@ -566,4 +565,37 @@ footer .medsos-list img {
 .room-container > div {
     width: 551px;
     height: auto;
+}
+
+.room-container .price-tag {
+    margin-top: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.room-card {
+    height: 394px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../../res/img/room_banner.webp");
+    background-position: -100%, -100%;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-bottom: 94px;
+}
+
+.room-card h1 {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-position: under;
+    font-family: 'Kaisei HarunoUmi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    margin-bottom: 70px;
+    color: #FFFFFF;
 }
