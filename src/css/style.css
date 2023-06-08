@@ -45,6 +45,13 @@ nav ul li a {
     font-size: 20px;
 }
 
+nav .active {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 4px;
+}
+
 body {
     background-color: black;
 }
