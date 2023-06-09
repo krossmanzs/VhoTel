@@ -30,41 +30,41 @@
     </div>
 
     <div class="form-container">
-        <form class="form-reservation">
+        <form class="form-reservation" name="formres" onsubmit="return validateForm(this)">
             <div>
                 <label for="firstname">Name</label>
                 <p>:</p>
-                <input type="text" name="firstname" placeholder="Full Name"  required>
+                <input type="text" name="firstname" placeholder="Full Name">
             </div>
             <br>
             <div>
                 <label for="phone">Phone Number</label>
                 <p>:</p>
-                <input type="number" name="phone" placeholder="08123456789" required>
+                <input type="number" name="phone" placeholder="08123456789">
             </div>
             <br>
             <div>
                 <label for="email">Email</label>
                 <p>:</p>
-                <input type="email" name="email" placeholder="your.email@host.com" required>
+                <input type="email" name="email" placeholder="your.email@host.com">
             </div>
             <br>
             <div>
                 <label for="checkin">Check in</label>
                 <p>:</p>
-                <input type="date" name="checkin"  required>
+                <input type="date" name="checkin">
             </div>
             <br>
             <div>
                 <label for="checkout">Check out</label>
                 <p>:</p>
-                <input type="date" name="checkout"  required>
+                <input type="date" name="checkout">
             </div>
             <br>
             <div>
                 <label for="password">Room type</label>
                 <p>:</p>
-                <select name="roomtype" id="room" required>
+                <select name="roomtype" id="room">
                     <option disabled selected value> -- select an option --</option>
                     <option value="onebed">One Bed Room</option>
                     <option value="twobed">Two Beds Room</option>
@@ -86,7 +86,7 @@
                 </select>
             </div>
             <br>
-            <input type="submit" class="btn-book" value="Book Now!">
+            <button type="submit" class="btn-book">Book Now!</button>
         </form>
     </div>
 
