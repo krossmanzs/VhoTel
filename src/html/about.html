@@ -5,21 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <title>About Us || VhoTel</title>
 </head>
 <body>
     <nav>
         <img src="../../res/img/logo.png" class="logo" alt="Vhotel Logo">
-        <ul>
+        <ul id="menu">
             <li><a href="home.html">Homepage</a></li>
             <li><a href="facility.html">Facilities</a></li>
             <li><a href="reservation.html">Reservation</a></li>
             <li><a href="room.html">Room & Suites</a></li>
-            <li><a href="#" class="active">About Us</a></li>
+            <li class="active"><a href="#">About Us</a></li>
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
+        <a href="javascript:void(0);" class="bar-button" onclick="toggleMenu()">
+            <i class="ri-menu-line icon"></i>
+        </a>
     </nav>
-
+    
     <div class="about-card">
         <h1>About VhoTel</h1>
     </div>
@@ -51,5 +55,7 @@
         <div class="line"></div>
         <p>All material herein © 2023 VhoTel Company Pte. Ltd. All Rights Reserved.</p>
     </footer>
+
+    <script src="../js/script.js"></script>
 </body>
 </html>
