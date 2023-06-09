@@ -156,9 +156,8 @@ p {
 
 .home-offer-sub {
     width: 100%;
-    text-align: left;
-    padding-left: 12px;
-    margin-bottom: 12px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .home-offer .discount-tag {
@@ -732,8 +731,46 @@ footer .medsos-list img {
 }
 
 @media only screen and (max-width: 768px) {
+    .welcome-card h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 64px;
+    }
+
+    .welcome-card h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .welcome-card h3 {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .home-quote h1 {
+        font-size: 32px;
+    }
+
+    .home-quote p {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .reservation-card h2 {
+        font-size: 24px;
+    }
+
+    .room-card h1, .about-card h1, .reservation-card h1, .facility-card h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+    }
+
     .facility-content-card p, .facility-content-card-second p{
         font-size: 28px;
+        height: auto;
     }
 
     .home-offer {
@@ -754,6 +791,14 @@ footer .medsos-list img {
         padding: 0 24px;
     }
 
+    .form-reservation {
+        align-items: center;
+    }
+
+    .form-reservation .btn-book {
+        width: 300px;
+    }
+
     .form-reservation > div{
         flex-direction: column;
         align-items: flex-start;
@@ -765,15 +810,17 @@ footer .medsos-list img {
     }
 
     .form-reservation label {
+        font-size: 20px;
         margin-top: 8px;
     }
 
-    .reservation-card h1 {
-        font-size: 48px;
+    .form-reservation input, .form-reservation select {
+        font-size: 20px;
+        width: 300px;
     }
 
-    .reservation-card h2 {
-        font-size: 28px;
+    .form-reservation select {
+        background-size: 20px;
     }
 
     footer p {
