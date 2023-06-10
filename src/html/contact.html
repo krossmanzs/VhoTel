@@ -24,7 +24,35 @@
         </a>
     </nav>
 
-    <img class="map-location" src="../../res/img/map.jpg" alt="Map Location Image">
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe
+          width="1774"
+          height="336"
+          id="gmap_canvas"
+          src="https://maps.google.com/maps?q=itera&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        ></iframe
+        ><br />
+        <style>
+          .mapouter {
+            position: relative;
+            text-align: right;
+            height: 346px;
+            width: 100vw;
+          }
+          .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 336px;
+            width: 1774px;
+          }
+        </style>
+      </div>
+    </div>
 
     <div class="contact-container">
         <div class="contact">
